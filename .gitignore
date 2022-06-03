@@ -1,14 +1,5 @@
-# .pdm.toml
-# __pypackages__/
-# __pycache__/
-# *.py[cod]
-# node_modules/
-
-# /.vscode/
-# !/.vscode/settings.json
-
-# /media/
-# /static/
-# *.sqlite3
-# /.env
-# /makefile
+__pypackages__/
+__pycache__/
+*.py[cod]
+*.sqlite3
+/.env
