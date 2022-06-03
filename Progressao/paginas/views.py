@@ -4,7 +4,7 @@ from django.views.generic import TemplateView
 
 # A classe PaginaInicial "extends" TemplateView
 class PaginaInicial(TemplateView):
-    template_name = "paginas/index.html"
+    template_name = "paginas/index2.html"
     #Toda classe filha do templateview precisa do
     #atributo abaixo para definir um template a ser renderizado
 
