@@ -19,4 +19,4 @@ class Atividade(models.Model):
 
 
     def __str__(self):
-        return "{} ({})".format(self.nome, self.campo.nome)
+        return "{} - {} ({})".format(self.numero, self.descricao, self.campo.nome)
